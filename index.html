@@ -17,11 +17,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand active" href="/index.html">Minútovka</a>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav nav-pills">
-                    <li class="nav-item">
-                        <a href="/index.html" class="nav-link active">Minútovka</a>
-                    </li>
+                <ul class="navbar-nav active">
                     <li class="nav-item">
                         <a href="/info.html" class="nav-link">Info o hre</a>
                     </li>
@@ -38,28 +36,37 @@
     </nav>
     <main>
         <div class="container">
-            <img class="mx-auto d-block img-fluid" src="https://thumbs.dreamstime.com/b/hand-typewriting-flying-documents-around-first-person-perspective-145443090.jpg" alt="Strojopis" srcset="">
+            <!-- <img class="mx-auto d-block img-fluid" src="https://thumbs.dreamstime.com/b/hand-typewriting-flying-documents-around-first-person-perspective-145443090.jpg" alt="Strojopis" srcset=""> -->
+            <h1>Vitajte v hre Minútovka.</h1>
             <p>
-                Vitajte v hre Minútovka. Cieľom hry je v priebehu 1 minúty prepísať čo najviac slov presne v rovnakej podobe ako sa zobrazujú zvýrazneným tučným písmom. Slová na prepisovanie sa nachádzajú v poli nižšie. Vpravo od neho sa nachádza časomiera, ktorá začne
-                odpočítavať 60 sekúnd, akonáhle stlačíte prvé písmeno znaku na klávesnici.
+                Cieľom hry je v priebehu 1 minúty prepísať čo najviac slov presne v rovnakej podobe ako sa zobrazujú zvýrazneným tučným písmom. Slová na prepisovanie sa nachádzajú v poli nižšie. Vpravo od neho sa nachádza časomiera, ktorá začne odpočítavať 60 sekúnd,
+                akonáhle stlačíte prvé písmeno znaku na klávesnici.
             </p>
-
             <div class="row">
-                <div class="col-6 game-choose">
+                <div class="col-sm-6 game-choose p-md-4 m-auto">
                     <p>Dosiahni čo najvyššie skóre a dostaň sa do siene slávy!</p>
+
                     <button class="btn btn-primary" type="button">Singleplayer</button>
+
                 </div>
-                <div class="col-6 game-choose">
+                <div class="col-sm-6 game-choose p-md-4">
                     <p>Zahraj si hru proti viacerím hráčom!</p>
-                    <button class="btn btn-primary" type="button">Multiplayer</button>
+                    <div>
+                        <button class="btn btn-primary" type="button">Multiplayer</button>
+                    </div>
+
                 </div>
             </div>
 
         </div>
     </main>
+    <footer class="bg-light text-center text-white fixed-bottom">
 
-    <footer>
-
+        <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="www.fri.uniza.sk">Fakulta riadenia a informatiky</a>
+            <a class="text-white" href="www.uniza.sk">UNIZA</a>
+        </div>
     </footer>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>

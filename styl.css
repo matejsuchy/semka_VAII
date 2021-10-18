@@ -1,0 +1,25 @@
+.icon {
+    max-width: 100px;
+}
+
+.game-choose {
+    text-align: center;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.top {
+    border: 1px solid navy;
+    margin: 5px 5px 0 5px;
+    border-radius: 5px;
+    padding: 30px 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 128, 0.13);
+}
+
+.dropdown {
+    display: flex;
+    justify-content: end;
+    margin: 5px 0px 10px 0px;
+}
