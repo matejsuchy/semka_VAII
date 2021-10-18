@@ -25,3 +25,13 @@
     justify-content: end;
     margin: 5px 0px 10px 0px;
 }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blockquote {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
