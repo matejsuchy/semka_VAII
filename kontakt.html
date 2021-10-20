@@ -8,7 +8,7 @@
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styl.css">
-    <title>Top 100</title>
+    <title>Kontakt</title>
 </head>
 
 <body>
@@ -27,10 +27,10 @@
                         <a href="/statistika.html" class="nav-link">Statistika</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/top100.html" class="nav-link active">Top 100</a>
+                        <a href="/top100.html" class="nav-link">Top 100</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/kontakt.html" class="nav-link">Kontakt</a>
+                        <a href="/kontakt.html" class="nav-link active">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -42,60 +42,31 @@
     </nav>
 
     <main class="container main-content">
-        <h1>Top 100 hráčov</h1>
-        <div class="row">
-            <div class="top col-md">
-                Najrychlejsie pisal <span class="hrac"><a href="#">Fero</a></span> s poctom xyz slov za minutu
+        <h1>Kontakt</h1>
+
+        <form action="" class="contact-form container gx-4">
+
+            <div class="row g-3">
+                <div class="form-input">
+                    <label for="name" class="form-label">Meno</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tvoje meno a priezvisko">
+                </div>
+
+                <div class="form-input">
+                    <label for="email">Tvoja mailová adresa</label>
+                    <input type="text" class="form-control" id="email" placeholder="Tvoja mailová adresa">
+                </div>
+
+                <div class="form-input">
+                    <label for="request">Tu napíš svoju požiadavku, nápad alebo odkaz</label>
+                    <textarea class="form-control" name="request" id="request" placeholder="Tvoja správa"></textarea>
+                </div>
+                <button class="btn btn-success">Odošli</button>
             </div>
-            <div class="top col-md">
-                Najneomylnejší hráč .....
-            </div>
-            <div class="top col-md">
-                Najviac hier odohral ....
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Obodbie
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Dnes</a></li>
-                    <li><a class="dropdown-item" href="#">Tento týždeň</a></li>
-                    <li><a class="dropdown-item" href="#">Celkovo</a></li>
-                </ul>
-            </div>
-        </div>
-        <table class="table table-striped table-hover ">
-            <thead class="table-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Meno</th>
-                    <th scope="col">Priezvisko</th>
-                    <th scope="col">WPM (words per minute)</th>
-                    <th scope="col">Presnosť</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>1</td>
-                <td>Fero</td>
-                <td>Mrkvička</td>
-                <td>320</td>
-                <td>99%</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jozef</td>
-                <td>Novák</td>
-                <td>190</td>
-                <td>85%</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Peter</td>
-                <td>Kováč</td>
-                <td>188</td>
-                <td>90%</td>
-            </tr>
-        </table>
+        </form>
+
+
+
     </main>
     <footer class="bg-dark bg-gradient text-center text-white fixed-bottom">
         <div class="container-fluid footer-socials">
@@ -128,6 +99,7 @@
     </footer>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
