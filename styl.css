@@ -14,17 +14,12 @@ Purple Navy
 
 */
 
-.icon {
-    max-width: 100px;
-}
-
 .game-choose {
     text-align: center;
     border: 2px solid aliceblue;
-    border-radius: 10px;
+    border-radius: 1em;
     background-color: antiquewhite;
-    margin: 0 20px;
-    padding: 10px 100px;
+    margin: 5px 20px;
 }
 
 .top {
@@ -46,7 +41,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: rgba(76, 88, 161, 0.1);
-    padding-bottom: 50px;
+    /* padding: 500px 0px; */
 }
 
 .blockquote {
